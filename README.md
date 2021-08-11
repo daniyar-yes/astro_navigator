@@ -1,6 +1,9 @@
 # astro_navigator
 Attempt to make navigating in astronomical sky night maps easier.
 
+https://daniyar-yes.github.io/astro_navigator/
+
+
 The web application should make navigating in sky map easier.
 It should have the following features.
 
