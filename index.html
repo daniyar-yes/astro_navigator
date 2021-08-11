@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Astro Navigator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="fixed-items">
+      <div class="navbar">
+        <div class="nav-item"><img class="planet-icon"src="planet.png"><h3>Planets</h3></div>
+        <div class="nav-item"><img class="ursa-icon" src="bold-ursa-trans.png"><h3>Constellations</h3></div>
+      </div>
+      <div id="weather" class="weather"><h3>Weather will show conditions</h3>
+        <div id="description"></div>
+        <h1 id="temp"></h1>
+        <div id="location"></div>
+      </div>
+      <div class="main-event">
+        <h1>Perseids Meteor Shower</h1>
+        <div class="countdown-container">
+          <div class="cd-el days-c">
+            <p class="big-text" id="days">0</p>
+            <span>days</span>
+          </div>
+          <div class="cd-el hours-c">
+            <p class="big-text" id="hours">0</p>
+            <span>hours</span>
+          </div>
+          <div class="cd-el mins-c">
+            <p class="big-text" id="mins">0</p>
+            <span>minutes</span>
+          </div>
+          <div class="cd-el seconds-c">
+            <p class="big-text" id="seconds">0</p>
+            <span>seconds</span>
+          </div>
+        </div>  
+      </div>
+    </div>
+    <div class="dropdown-items">
+      <div class="planets">
+        <details>
+          <summary>Visible Planets</summary>
+          <p>Details on Planets visible now will go here</p>
+        </details>
+      </div>
+      <div class="constellations">
+        <details>
+          <summary>Visible Constellations</summary>
+          <p>Details on Constellations visible now will go here</p>
+        </details>
+      </div>
+    </div>
+    <div id="location"></div>
+	<script src="script.js"></script>
+  </body>
+</html>

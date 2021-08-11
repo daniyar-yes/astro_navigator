@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color:aliceblue;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: normal;
+}
+
+h3, h4, details, p, span {
+    color:aliceblue;
+    text-align: center;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.cd-el {
+    text-align: center;
+}
+
+.cd-el span {
+    font-size: 1.5rem;
+}
+.planet-icon {
+    width: 60px;
+    height: auto;
+    filter: invert();
+}
+
+.ursa-icon {
+    width: 100px;
+    height: auto;
+    filter: invert();
+}
+
+.main-event, .weather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+#location {
+    position: fixed;
+    bottom: 1rem;
+    left: 1rem;
+    color:aliceblue;
+}
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+}
+.nav-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
+}
+body {
+    background-image: url('back-wide.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
+.fixed-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.dropdown-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.constellations {
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 700px) {
+    h1 {
+        color:aliceblue;
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .big-text {
+        font-size: 4rem;
+        line-height: 1;
+        margin: 0 2rem;
+  }
+  .cd-el span {
+    font-size: 1rem;
+}
+}
